@@ -149,10 +149,6 @@ When servers fail to connect:
 
 When building a server that uses the local stdio [transport](/docs/concepts/transports), all messages logged to stderr (standard error) will be captured by the host application (e.g., Claude Desktop) automatically.
 
-<Warning>
-  Local MCP servers should not log messages to stdout (standard out), as this will interfere with protocol operation.
-</Warning>
-
 For all [transports](/docs/concepts/transports), you can also provide logging to the client by sending a log message notification:
 
 <Tabs>
